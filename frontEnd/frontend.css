@@ -1,0 +1,347 @@
+span, a, strong{
+	color:black;
+	font-family:cursive; 
+	font-size: 14px;
+	line-height: 30px;
+}
+
+label{
+	font-family: cursive;
+	font-size: 48px;
+}
+
+a{
+	font-weight: bold;
+}
+
+ul, p{
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+}
+
+.shadow{
+	box-shadow: 0 0 2px #333;
+}
+
+.wrap{
+	overflow: hidden;
+	zoom: 1;
+}
+
+.round{
+	width:1029px;
+	margin: 20px auto;
+}
+
+.head{
+	position: relative;
+}
+
+.tittle{
+	position: absolute;
+	top:10px;
+}
+
+.rightop{
+	text-align: right;
+}
+
+.rightop span{
+	position: relative;
+	padding:0 15px;
+}
+
+.rightop i{
+	position:absolute;
+	height:30px;
+	width:30px;
+	background:url(images/1.png);
+	background-position: -60px 0;
+	left: -5px;
+}
+
+.contentarea{
+	/* height:500px; */
+/* background:red; */
+}
+.navi{
+	padding-top:10px;
+}
+
+.naviul{
+	height:40px;
+	line-height: 25px;
+}
+
+.naviul li{
+	float: right;
+	padding: 0 10px;
+	margin-left:3px;
+	border:solid 2px black;
+	border-bottom: none;
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
+	position: relative;
+	top:8px;
+	box-shadow: 0 0 2px #333;
+}
+
+li.heighter{
+	height:36px;
+	top: 2px;
+	background:#606060;
+	position: relative;
+	z-index: 1;
+}
+
+li.heighter span{
+	color: white;
+}
+
+.naviul span{
+	font-weight: bold;
+}
+
+.content{
+	position: relative;
+	bottom: 2px;
+/* height: 300px; */
+	border: solid 2px black;
+}
+
+.progrem{
+	padding:5px;
+	background:#606060;
+	border-bottom:solid 2px black;
+}
+
+.progrem label{
+	color: white;
+	font-size: 18px;
+	padding:0 5px
+}
+
+.progrem span{
+	padding: 1px 15px;
+	border: solid 1px black;
+	border-radius: 10px;
+	background:#aaaaaa;
+	font-size: 12px;
+}
+
+.left{
+	float: left;
+/* height: 385px; */
+	width: 750px;
+	padding:0 15px 15px;
+
+}
+
+.Lcont{
+	padding:8px 17px;
+	position: relative;
+	margin-top:17px;
+	border: solid 1px #333;
+	border-radius: 10px;
+	background: #cce8b5;
+}
+
+.Lcont a, .Lcont strong, .Lcont span{
+	line-height: 22px;
+}
+
+.Lcont a{
+	font-weight: normal;
+	font-size: 13px;
+	padding-right:10px;
+}
+
+.Lcont em{
+	position: absolute;
+	height: 45px;
+	width:45px;
+	background: #999;
+	border-radius:23px;
+}
+
+.cont{
+	margin-left:60px;
+
+}
+
+.first strong{
+	margin-right:20px;
+	font-size:15px;
+}
+
+.first span{
+	position: relative;
+	padding:0 7px;
+	font-weight: 700;
+}
+
+.first i{
+	position: absolute;
+	height: 15px;
+	border-left: solid 1px #aaa;
+	left: 0;
+	top: 3px;
+}
+
+.Ble{
+	position: relative;
+	float: left;
+	padding: 0 5px 0 0px;
+}
+
+
+.Ble i{
+	font-size:14px;
+	font-weight: bold;
+	font-style: normal;
+}
+
+.Ble b{
+	position: absolute;
+	height: 15px;
+	border-left: 1px solid #aaa;
+	right: 37%;
+	top:5px;
+}
+
+.contBcont{
+	margin-left: 223px;
+	overflow: hidden;
+	zoom: 1;
+}
+
+.contBcont span{
+	float: left;
+	position: relative;
+	padding-right:40px;
+}
+
+.contBcont i{
+	position: absolute;
+	right: 20px;
+	top:0px;
+	height: 20px;
+	width: 20px;
+	background: url(images/1.png);
+	background-position: -33px -4px;
+	cursor: pointer;
+}
+
+.right{
+	float: left;
+	width: 219px;
+	padding:0 5px 30px 15px;
+	/* border-left:2px solid #aaa; */
+}
+
+.right i{
+	position: absolute;
+	height:100%;
+	width: 1px;
+	right: 239px;
+	border-left:2px solid #aaa;
+}
+
+.progranR{
+	padding-top:10px;
+}
+
+.progranR span, .progranR strong, .progranR font{
+	font-size: 12px;
+	line-height:28px;
+}
+
+.progranR strong{
+	font-size: 14px;
+}
+
+.progranR hr{
+	margin: 2px;
+	border: solid 1px #ddd;
+}
+
+.ulist li{
+	position: relative;
+	padding: 0 5px;
+}
+
+.ulist font{
+	position: absolute;
+	left:110px;
+}
+
+.hide{
+	position: absolute;
+	width:588px;
+	border:solid 2px black;
+	border-radius:15px;
+	padding:0 13px 13px;
+	background: #e0ecd4;
+	box-shadow: 0 0 2px black;
+	display: none;
+}
+
+.hide span, .hide strong{
+	line-height: 20px;
+}
+
+.hide p{
+	padding:6px 0 0;
+}
+
+.hide strong{
+	padding: 2px 10px;
+	border-radius: 15px;
+	border: solid 1px #111;
+	box-shadow: 0 0 2px black;
+	font-weight: normal; 
+	cursor: pointer;
+	background: #d5d5d7;
+ 	background: -webkit-gradient(
+                linear, 
+                left top, 
+                left bottom, 
+                color-stop(0%,#f8f8f8), 
+                color-stop(49%,#d5d5d7), 
+                color-stop(100%,#d5d5d7)
+        );
+}
+
+.hide input{
+	width: 99%;
+	border:solid 1px #747474;
+	box-shadow: 0 0 1px black;
+	height:13px;
+	outline: 0;
+	padding:2px;
+
+}
+
+p.last{
+	padding-top:13px;
+}
+
+span.posi{
+	position: absolute;
+	border-width:20px;
+	border-style: solid;
+}
+
+.bub_top{
+	left: 40px;
+	top:-40px;
+	border-color:transparent transparent black;
+}
+
+.but_bottom{
+	left: 40px;
+	top:-37px;
+	border-color:transparent transparent #e0ecd4;
+}
+
